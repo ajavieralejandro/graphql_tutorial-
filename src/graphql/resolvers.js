@@ -22,7 +22,7 @@ export const resolvers = {
             query: GET_CART_HIDDEN,
             data : {cartHidden: !cartHidden}
         })
-        return !cartHidden;
+        return cartHidden;
         }
 
 
